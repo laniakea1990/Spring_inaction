@@ -1,0 +1,12 @@
+package com.cmbchina.dao.impl;
+
+import com.cmbchina.dao.UserDao;
+import com.cmbchina.service.impl.UserServiceImpl;
+
+public class UserDaoImpl implements UserDao{
+
+	private UserDao userDao = new UserServiceImpl();
+	public void getUser(){
+		System.out.println("获取用户数据");
+	}
+}

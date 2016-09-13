@@ -1,0 +1,10 @@
+package com.cmbchina.service.impl;
+
+import com.cmbchina.service.UserService;
+
+public class UserServiceImpl implements UserService{
+	
+	public void getUser(){
+		
+	}
+}

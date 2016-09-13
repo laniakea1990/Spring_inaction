@@ -1,0 +1,8 @@
+package spring4_ioc1;
+
+public class Tsaa {
+
+	public static void main(String[] args){
+		
+	}
+}
