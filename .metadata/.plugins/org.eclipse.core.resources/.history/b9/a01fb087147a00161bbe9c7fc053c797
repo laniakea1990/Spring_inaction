@@ -1,0 +1,8 @@
+package com.cmbchina.test;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.cmbchina.bean.Hello;
+
+ 

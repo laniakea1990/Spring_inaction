@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.cmbchina.dao.UserDao"/>
+<fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoImpl"/>
+<fullyQualifiedTypeName name="com.cmbchina.service.UserService"/>
+<fullyQualifiedTypeName name="com.cmbchina.service.impl.UserServiceImpl"/>
+<fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoMysqlImpl"/>
+<fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoOracleImpl"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

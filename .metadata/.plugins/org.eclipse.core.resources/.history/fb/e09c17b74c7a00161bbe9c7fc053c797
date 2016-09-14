@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- bean就是java对象 由spring来创建和管理 -->
+	
+	<bean id="user" class="com.cmbchina.vo.User">
+		<!-- index指构造方法参数下标从0开始 -->
+		<constructor-arg index="0" value="Gokuliz"></constructor-arg>
+		<!-- name指参数名 -->
+		<constructor-arg name="0" value="Gokuliz"/>
+	</bean>
+</beans>
