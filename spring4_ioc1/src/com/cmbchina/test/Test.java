@@ -2,7 +2,6 @@ package com.cmbchina.test;
 
 import com.cmbchina.dao.impl.UserDaoMysqlImpl;
 import com.cmbchina.dao.impl.UserDaoOracleImpl;
-import com.cmbchina.service.UserService;
 import com.cmbchina.service.impl.UserServiceImpl;
 
 public class Test {

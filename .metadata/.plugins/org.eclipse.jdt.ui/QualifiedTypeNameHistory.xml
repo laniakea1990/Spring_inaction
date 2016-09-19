@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.cmbchina.dao.UserDao"/>
 <fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoImpl"/>
-<fullyQualifiedTypeName name="com.cmbchina.service.UserService"/>
 <fullyQualifiedTypeName name="com.cmbchina.service.impl.UserServiceImpl"/>
 <fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoMysqlImpl"/>
 <fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoOracleImpl"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.portable.ApplicationException"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="com.cmbchina.service.UserService"/>
+<fullyQualifiedTypeName name="com.cmbchina.vo.User"/>
+<fullyQualifiedTypeName name="com.cmbchina.bean.Hello"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.cmbchina.di.Student"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.cmbchina.di.Address"/>
 </qualifiedTypeNameHistroy>
