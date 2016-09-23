@@ -1,0 +1,24 @@
+package com.cmbchina.di;
+
+public class Student {
+
+	private String name;
+	private Address addr;
+	private String[] books;
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAddr(Address address) {
+		this.addr = address;
+	}
+	
+	public void setBooks(String[] books) {
+		this.books = books;
+	}
+	public void show(){
+		System.out.println("Name:"+name);
+		System.out.println("Addr:"+addr.getAddress());
+		System.out.println("Books:"+books);
+	}
+}

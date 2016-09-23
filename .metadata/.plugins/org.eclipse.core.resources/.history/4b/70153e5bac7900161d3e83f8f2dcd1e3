@@ -1,8 +1,0 @@
-package com.cmbchina.dao;
-
-public class Tsaa {
-
-	public static void main(String[] args){
-		
-	}
-}

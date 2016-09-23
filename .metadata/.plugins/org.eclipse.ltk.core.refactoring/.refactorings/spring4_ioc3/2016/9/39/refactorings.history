@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="将资源“spring4_ioc3/src/beans.xml.bak”重命名为“beans.bak.xml”" description="重命名资源“beans.xml.bak”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/beans.xml.bak" name="beans.bak.xml" stamp="1474277531015" updateReferences="true"/>&#x0A;<refactoring comment="将资源“spring4_ioc3/src/beans.bak.xml”重命名为“beans.xml.bak”" description="重命名资源“beans.bak.xml”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/beans.bak.xml" name="beans.xml.bak" stamp="1474277568770" updateReferences="true"/>
+</session>

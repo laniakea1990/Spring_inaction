@@ -1,5 +1,0 @@
-package com.cmbchina.service;
-
-public interface UserService {
-
-}
