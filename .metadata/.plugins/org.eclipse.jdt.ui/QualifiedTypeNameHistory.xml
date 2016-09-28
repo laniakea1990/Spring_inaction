@@ -7,7 +7,6 @@
 <fullyQualifiedTypeName name="com.cmbchina.dao.impl.UserDaoOracleImpl"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.portable.ApplicationException"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
-<fullyQualifiedTypeName name="com.cmbchina.service.UserService"/>
 <fullyQualifiedTypeName name="com.cmbchina.vo.User"/>
 <fullyQualifiedTypeName name="com.cmbchina.bean.Hello"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
@@ -19,7 +18,11 @@
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="com.cmbchina.di.User"/>
+<fullyQualifiedTypeName name="com.cmbchina.staticproxy.Rent"/>
+<fullyQualifiedTypeName name="com.cmbchina.staticproxy.Host"/>
+<fullyQualifiedTypeName name="com.cmbchina.staticproxy.Proxy"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.cmbchina.service.UserService"/>
 </qualifiedTypeNameHistroy>

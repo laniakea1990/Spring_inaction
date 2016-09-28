@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd" default-autowire="byName">
+	<!-- bean就是java对象 由spring来创建和管理 -->
+	<bean id="userDao" class="com.cmbchina.dao.impl.UserDaoOracleImpl"/>
+	<!-- autowire自动装配，简化spring配置
+		byName 根据名称（set方法名，大写开始的字段）去查找相应的bean，如果有则装配上
+		byType 根据类型进行自动装配，不用管bean的id，但是同一种类型的bean只能有一个（建议慎用）
+	 -->
+	<bean id="service" class="com.cmbchina.service.impl.UserServiceImpl"/>
+</beans>

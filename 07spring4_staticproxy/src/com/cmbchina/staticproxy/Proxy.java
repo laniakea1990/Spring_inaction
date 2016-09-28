@@ -1,0 +1,30 @@
+package com.cmbchina.staticproxy;
+
+public class Proxy implements Rent{
+	private Host host;
+	public Proxy() {
+		// TODO 自动生成的构造函数存根
+	}
+	public Proxy(Host host) {
+		super();
+		this.host = host;
+	}
+	public void setHost(Host host) {
+		this.host = host;
+	}
+	//租房
+	public void rent(){
+		seeHouse();
+		host.rent();
+		fare();
+	}
+	//看房
+	private void seeHouse(){
+		System.out.println("带房客看房");
+	}
+	//收中介费
+	private void fare() {
+		System.out.println("收取中介费");
+	}
+	
+}

@@ -1,0 +1,29 @@
+package com.cmbchina.service;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public void add() {
+		// TODO 自动生成的方法存根
+
+	}
+
+	@Override
+	public void update() {
+		// TODO 自动生成的方法存根
+
+	}
+
+	@Override
+	public void delete() {
+		// TODO 自动生成的方法存根
+
+	}
+
+	@Override
+	public void search() {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

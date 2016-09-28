@@ -1,0 +1,8 @@
+package com.cmbchina.staticproxy;
+
+public class Proxy {
+	private Host host;
+	public void rent(){
+		host.rent();
+	}
+}

@@ -1,0 +1,30 @@
+package com.cmbchina.service;
+
+public class UserServiceProxy implements UserService{
+	private UserService userService;
+	@Override
+	public void add() {
+		log("add");
+		userService.add();
+	}
+
+	@Override
+	public void update() {
+		
+	}
+
+	@Override
+	public void delete() {
+		
+	}
+
+	@Override
+	public void search() {
+		
+	}
+	
+	public void log(String methodName){
+		System.out.println("Ö´ÐÐ"+methodName+"·½·¨");
+	}
+
+}
