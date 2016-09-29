@@ -1,0 +1,25 @@
+package com.cmbchina.dynamicproxy;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+
+public class ProxyInvocationHandler implements InvocationHandler {
+	
+	private Rent rent;
+	/*
+	 * proxy是代理类
+	 * method 代理类的调用处理程序的方法对象
+	 * （非 Javadoc）
+	 * @see java.lang.reflect.InvocationHandler#invoke(java.lang.Object, java.lang.reflect.Method, java.lang.Object[])
+	 */
+	public void setRent(Rent rent) {
+		this.rent = rent;
+	}
+	@Override
+	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+		// TODO 自动生成的方法存根
+		Object result = method.invoke(rent, args);
+		return result;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.cmbchina.dynamicproxy;
+
+import com.cmbchina.service.UserService;
+import com.cmbchina.service.UserServiceImpl;
+
+public class Client {
+	public static void main(String[] args) {
+		UserService userService = new UserServiceImpl();
+		ProxyInvocationHandler proxyInvocationHandler = new ProxyInvocationHandler();
+		proxyInvocationHandler.setTarget(userService);
+		UserService proxy = (UserService)proxyInvocationHandler.getProxy();
+		proxy.add();();
+	}
+}

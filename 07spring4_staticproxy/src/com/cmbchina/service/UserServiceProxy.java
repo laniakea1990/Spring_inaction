@@ -16,6 +16,7 @@ public class UserServiceProxy implements UserService{
 
 	@Override
 	public void delete() {
+		//日志，安全，缓存，事务，异常处理等公共业务
 		log("delete");
 		userService.delete();
 	}
