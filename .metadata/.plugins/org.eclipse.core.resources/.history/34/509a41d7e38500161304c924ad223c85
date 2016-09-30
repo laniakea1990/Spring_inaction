@@ -1,0 +1,17 @@
+package com.cmbchina.log;
+
+import java.lang.reflect.Method;
+
+import org.springframework.aop.MethodBeforeAdvice;
+
+public class Log implements MethodBeforeAdvice{
+	public void log(){
+		
+	}
+
+	@Override
+	public void before(Method arg0, Object[] arg1, Object arg2) throws Throwable {
+		// TODO 自动生成的方法存根
+		
+	}
+}

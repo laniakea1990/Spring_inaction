@@ -1,0 +1,15 @@
+package com.cmbchina.log;
+
+public class Log{
+
+	public void before(){
+		// TODO 自动生成的方法存根
+		System.out.println("------方法执行前------");
+	}
+	
+	public void after(){
+		// TODO 自动生成的方法存根
+		System.out.println("------方法执行后------");
+	}
+	
+}

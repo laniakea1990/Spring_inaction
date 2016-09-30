@@ -1,0 +1,7 @@
+package com.cmbchina.log;
+
+import org.springframework.aop.ThrowsAdvice;
+
+public class ExceptionLog implements ThrowsAdvice {
+
+}

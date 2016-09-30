@@ -3,4 +3,5 @@
 <typeInfo handle="=07spring4_staticproxy/C:\/Program Files\/Java\/jdk1.8.0_91\/jre\/lib\/rt.jar&lt;org.omg.PortableInterceptor(USER_EXCEPTION.class[USER_EXCEPTION" modifiers="1537" timestamp="1466563933650"/>
 <typeInfo handle="=07spring4_staticproxy/src&lt;com.cmbchina.service{UserService.java[UserService" modifiers="513" timestamp="1474964115848"/>
 <typeInfo handle="=08spring4_dynamicproxy/C:\/Program Files\/Java\/jdk1.8.0_91\/jre\/lib\/rt.jar&lt;java.lang.reflect(InvocationHandler.class[InvocationHandler" modifiers="1537" timestamp="1466563933650"/>
+<typeInfo handle="=10spring4_aop_impl_01/lib\/spring-aop-4.3.2.RELEASE.jar&lt;org.springframework.aop(ThrowsAdvice.class[ThrowsAdvice" modifiers="1537" timestamp="1473812291673"/>
 </typeInfoHistroy>

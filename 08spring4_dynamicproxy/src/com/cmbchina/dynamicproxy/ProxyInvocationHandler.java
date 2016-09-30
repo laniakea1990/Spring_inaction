@@ -11,13 +11,13 @@ public class ProxyInvocationHandler implements InvocationHandler {
 //		this.rent = rent;
 //	}
 	
-	private Object target;
+	private Object target;//目标对象---真实对象
 	public void setTarget(Object target) {
 		this.target = target;
 	}
 	
 	/**
-	 * 生成代理类
+	 * 生成代理实例---代理类的代理对象
 	 */
 	public Object getProxy(){
 		return Proxy.newProxyInstance(this.getClass().getClassLoader(), 
@@ -31,6 +31,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		// TODO 自动生成的方法存根
+		System.out.println("args="+args[0]);
 		log(method.getName());
 		Object result = method.invoke(target, args);
 		return result;

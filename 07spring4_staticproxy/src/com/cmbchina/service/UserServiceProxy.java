@@ -16,8 +16,8 @@ public class UserServiceProxy implements UserService{
 
 	@Override
 	public void delete() {
-		//日志，安全，缓存，事务，异常处理等公共业务
-		log("delete");
+		//公共的业务---日志，安全，缓存，事务，异常处理等公共业务
+		//log("delete");----分离的思想
 		userService.delete();
 	}
 
